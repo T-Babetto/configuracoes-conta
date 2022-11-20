@@ -4,7 +4,7 @@
   --color-underline-delete: #ee4878;
   --color-text-strong: #1a194d;
   --color-white: #ffffff;
-  --color-border:#EFEFFF;
+  --color-border: #efefff;
 }
 * {
   box-sizing: border-box;
@@ -13,6 +13,7 @@
   outline: 0;
   border: 0;
   text-decoration: none;
+  font-family: "Poppins";
 }
 body {
   background-color: var(--color-background);
@@ -22,17 +23,18 @@ body {
   height: 100%;
   text-align: -webkit-center;
 }
-.header-line{
-  width: 70%;
+.header-line {
+  width: 90%;
   border: 0.1px solid var(--color-border);
 }
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: revert;
-  width: 70%;
+  justify-content: space-evenly;
+  width: 90%;
   padding-top: 1%;
   padding-bottom: 1%;
+  gap:120px;
   margin-top: 5%;
   background-color: var(--color-secondary);
   border-radius: 15px 15px 0px 0px;
@@ -42,8 +44,6 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 5px;
-  margin-right: 16%;
-  margin-left: 4%;
 }
 .logo-name {
   font-weight: 600;
@@ -51,6 +51,26 @@ body {
 .config-nav {
   text-decoration: none;
   font-size: 16px;
+}
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+.avatar {
+  border-radius: 50%;
+}
+.upload {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+  background: #202142;
+  border-radius: 10px;
+  color:#FFFFFF;
+  height: 44px;
 }
 ul {
   display: flex;
@@ -76,10 +96,10 @@ li a {
   height: 100%;
   padding-top: 5%;
   padding-left: 10%;
-  width: 70%;
+  width: 90%;
 }
-.nav-title{
-  font-family: 'Merriweather';
+.nav-title {
+  font-family: "Merriweather";
   padding-bottom: 30px;
 }
 .nav-settings {
@@ -91,32 +111,39 @@ li a {
   border-width: 50%;
   padding-right: 40px;
 }
-.account-settings{
+.account-settings {
   padding-left: 7%;
   padding-top: 8%;
 }
-.first-layer{
+.first-layer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
 }
-.title-account{
+.title-account {
   padding-bottom: 35px;
 }
-.email-title{
+.email-title {
   padding-bottom: 15px;
 }
-.account-line{
+.account-line {
   border: 0.1px solid var(--color-border);
   margin-bottom: 30px;
 }
-.email-address{
+.email-address {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   gap: 65px;
   padding-bottom: 30px;
 }
-.link-underline{
+.password {
+  border: 1px solid #c3c3e4;
+  border-radius: 10px;
+}
+.link-underline {
+  height: 40px;
   text-decoration: underline;
+  text-align: end;
 }
