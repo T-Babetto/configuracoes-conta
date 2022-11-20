@@ -113,37 +113,73 @@ li a {
 }
 .account-settings {
   padding-left: 7%;
-  padding-top: 8%;
+  padding-top: 7%;
 }
 .first-layer {
+  gap:20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  text-align: start;
 }
 .title-account {
   padding-bottom: 35px;
+}
+.your-email{
+  padding-right: 30px;
 }
 .email-title {
   padding-bottom: 15px;
 }
 .account-line {
   border: 0.1px solid var(--color-border);
-  margin-bottom: 30px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 .email-address {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   gap: 65px;
-  padding-bottom: 30px;
+}
+.input-label{
+  font-size: 12px;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
 }
 .password {
   border: 1px solid #c3c3e4;
   border-radius: 10px;
+  height: 44px;
 }
 .link-underline {
   height: 40px;
   text-decoration: underline;
   text-align: end;
+}
+.save-password{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  background: #202142;
+  margin-top: 2em;
+  border-radius: 10px;
+  color:#FFFFFF;
+  height: 44px;
+}
+.delete-account{
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  margin-bottom: 5em;
+}
+.delete-link{
+  text-decoration-line: underline;
+  color: #EE4878;
 }
