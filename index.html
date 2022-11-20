@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Account Configs</title>
     <link rel="stylesheet" href="/css/config.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
     <link
       href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
@@ -30,6 +31,11 @@
           <li><a href="#contact">About</a></li>
         </ul>
       </nav>
+      <div class="user-actions">
+        <span class="material-icons-outlined">notifications</span>
+        <img src="/img/user_pic.svg" alt="Avatar" class="avatar">
+        <button class="upload"><span class="material-icons-outlined">file_upload</span>Upload</button>
+      </div>
     </header>
     <hr class="header-line" />
     <main>
@@ -61,8 +67,9 @@
           <div class="first-layer">
             <a class="password-title"><b>Password</b></a>
             <div class="email-address">
-              <a>Your email address is <b>emails@private.com</b></a>
-              <a class="link-underline" href="#">Change</a>
+              <input class="password" title="New Password" type="text">
+              <input class="password" type="text">
+              <a class="link-underline" href="#">Hide</a>
             </div>
           </div>
         </div>
