@@ -1,4 +1,4 @@
-# Página estática de Configurações de Conta
+# Página estática - Configurações de Conta
 
 
 # Sobre o Projeto
